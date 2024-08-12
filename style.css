@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: crimson;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: dodgerblue;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.latest-news {
+    padding: 20px;
+}
+
+.latest-news h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.latest-news article {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Team page styles */
+.team {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+}
+
+/* Fixtures & Results styles */
+.fixtures, .results {
+    padding: 20px;
+    text-align: center;
+}
+
+.fixtures ul, .results ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fixtures ul li, .results ul li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Gallery page styles */
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.gallery-item p {
+    margin-top: 5px;
+}
+
+/* Contact page styles */
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkred;
+}
+/* Table Styles */
+.team-table {
+    padding: 20px;
+    text-align: center;
+}
+
+.team-table table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.team-table th, .team-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.team-table th {
+    background-color: crimson;
+    color: white;
+}
+
+.team-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Ensures the footer stays at the bottom */
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0;
+}
+
+footer {
+margin-top: auto;
+background-color: crimson;
+color: white;
+text-align: center;
+padding: 10px 0;
+}
+.team-table table {
+width: 80%;
+margin: 0 auto;
+border-collapse: collapse;
+}
+
+.team-table th, .team-table td {
+padding: 10px;
+border: 1px solid #ccc;
+text-align: left;
+}
+
+.team-table th {
+background-color: crimson;
+color: white;
+}
+
+.team-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+}
